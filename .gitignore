@@ -45,3 +45,5 @@ idea.md
 !/content/**/
 !/content/**/*.md
 content/blog/_template.md
+
+.vercel
