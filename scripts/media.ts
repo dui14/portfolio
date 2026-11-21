@@ -28,6 +28,7 @@ const VIDEO_CRF = "24";
 const VIDEO_AUDIO_BITRATE = "128k";
 const POSTER_SECOND = 1;
 const HASH_LENGTH = 8;
+const MEDIA_CACHE_VERSION = "2";
 const DEFAULT_WIDTHS = [800, 1600];
 const GROUP_WIDTHS: Record<string, number[]> = {
   life: [640, 1280],
@@ -98,6 +99,7 @@ function classify(width: number, height: number): Aspect {
 
 async function hashFile(file: string): Promise<string> {
   const hash = createHash("sha1");
+  hash.update(MEDIA_CACHE_VERSION);
   for await (const chunk of createReadStream(file)) hash.update(chunk as Buffer);
   return hash.digest("hex").slice(0, HASH_LENGTH);
 }
@@ -295,6 +297,27 @@ function outputsOf(entry: Entry): string[] {
     .map((part) => part.trim().split(/\s+/)[0])
     .filter((url) => url.startsWith(URL_PREFIX))
     .map((url) => url.slice(URL_PREFIX.length).split("?")[0]);
+}
+
+async function reversion(entry: Entry): Promise<Entry> {
+  const next: Entry = { ...entry };
+  async function rewrite(url: string): Promise<string> {
+    if (!url.startsWith(URL_PREFIX)) return url;
+    const [file] = url.slice(URL_PREFIX.length).split("?");
+    return `${URL_PREFIX}${file}?v=${await hashFile(path.join(OUTPUT_DIR, file))}`;
+  }
+  next.src = await rewrite(entry.src);
+  if (entry.poster) next.poster = await rewrite(entry.poster);
+  if (entry.srcSet) {
+    const parts = await Promise.all(
+      entry.srcSet.split(",").map(async (part) => {
+        const [url, ...rest] = part.trim().split(/\s+/);
+        return [await rewrite(url), ...rest].join(" ");
+      }),
+    );
+    next.srcSet = parts.join(", ");
+  }
+  return next;
 }
 
 function isFresh(
@@ -532,7 +555,7 @@ async function main() {
       let entry: Entry;
 
       if (isFresh(old, previousState[asset.key], current)) {
-        entry = { ...old };
+        entry = await reversion(old);
         skipped += 1;
       } else if (asset.kind === "video") {
         if (ffmpeg === undefined) {
