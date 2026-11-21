@@ -1,0 +1,468 @@
+{
+  "badges/cisco-introduction-to-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/cisco-introduction-to-cybersecurity-320.webp?v=018f4bed",
+    "srcSet": "/media/badges/cisco-introduction-to-cybersecurity-160.webp?v=130ed00d 160w, /media/badges/cisco-introduction-to-cybersecurity-320.webp?v=018f4bed 320w"
+  },
+  "badges/cisco-network-defense": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/cisco-network-defense-320.webp?v=e672a2b9",
+    "srcSet": "/media/badges/cisco-network-defense-160.webp?v=40d0c209 160w, /media/badges/cisco-network-defense-320.webp?v=e672a2b9 320w"
+  },
+  "badges/cisco-networking-basics": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/cisco-networking-basics-320.webp?v=4b098b34",
+    "srcSet": "/media/badges/cisco-networking-basics-160.webp?v=006092f1 160w, /media/badges/cisco-networking-basics-320.webp?v=4b098b34 320w"
+  },
+  "badges/fortinet-certified-associate-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-certified-associate-cybersecurity-320.webp?v=a3f32ce1",
+    "srcSet": "/media/badges/fortinet-certified-associate-cybersecurity-160.webp?v=8ec912f3 160w, /media/badges/fortinet-certified-associate-cybersecurity-320.webp?v=a3f32ce1 320w"
+  },
+  "badges/fortinet-certified-fundamentals-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-certified-fundamentals-cybersecurity-320.webp?v=9448eed6",
+    "srcSet": "/media/badges/fortinet-certified-fundamentals-cybersecurity-160.webp?v=8bad2fb7 160w, /media/badges/fortinet-certified-fundamentals-cybersecurity-320.webp?v=9448eed6 320w"
+  },
+  "badges/fortinet-fortigate-7-6-operator": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-fortigate-7-6-operator-320.webp?v=cce8a5c2",
+    "srcSet": "/media/badges/fortinet-fortigate-7-6-operator-160.webp?v=34ba2e75 160w, /media/badges/fortinet-fortigate-7-6-operator-320.webp?v=cce8a5c2 320w"
+  },
+  "badges/fortinet-nse-1-certified-in-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-nse-1-certified-in-cybersecurity-320.webp?v=809634a1",
+    "srcSet": "/media/badges/fortinet-nse-1-certified-in-cybersecurity-160.webp?v=7f88c81e 160w, /media/badges/fortinet-nse-1-certified-in-cybersecurity-320.webp?v=809634a1 320w"
+  },
+  "badges/fortinet-nse-2-certified-in-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-nse-2-certified-in-cybersecurity-320.webp?v=fefdbe00",
+    "srcSet": "/media/badges/fortinet-nse-2-certified-in-cybersecurity-160.webp?v=5e1f77c2 160w, /media/badges/fortinet-nse-2-certified-in-cybersecurity-320.webp?v=fefdbe00 320w"
+  },
+  "badges/fortinet-nse-3-certified-in-cybersecurity": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/fortinet-nse-3-certified-in-cybersecurity-320.webp?v=ee70641e",
+    "srcSet": "/media/badges/fortinet-nse-3-certified-in-cybersecurity-160.webp?v=bb706078 160w, /media/badges/fortinet-nse-3-certified-in-cybersecurity-320.webp?v=ee70641e 320w"
+  },
+  "badges/introduction-to-the-threat-landscape-3-0": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/introduction-to-the-threat-landscape-3-0-320.webp?v=cbadeea7",
+    "srcSet": "/media/badges/introduction-to-the-threat-landscape-3-0-160.webp?v=edd1d57e 160w, /media/badges/introduction-to-the-threat-landscape-3-0-320.webp?v=cbadeea7 320w"
+  },
+  "badges/technical-introduction-to-cybersecurity-3-0": {
+    "type": "image",
+    "width": 320,
+    "height": 320,
+    "aspect": "square",
+    "src": "/media/badges/technical-introduction-to-cybersecurity-3-0-320.webp?v=79988156",
+    "srcSet": "/media/badges/technical-introduction-to-cybersecurity-3-0-160.webp?v=09b0b808 160w, /media/badges/technical-introduction-to-cybersecurity-3-0-320.webp?v=79988156 320w"
+  },
+  "blog/sui-cli-getting-started/banner": {
+    "type": "image",
+    "width": 1600,
+    "height": 1200,
+    "aspect": "landscape",
+    "src": "/media/blog/sui-cli-getting-started/banner-1600.webp?v=d0ee8e9b",
+    "srcSet": "/media/blog/sui-cli-getting-started/banner-800.webp?v=863dde1e 800w, /media/blog/sui-cli-getting-started/banner-1600.webp?v=d0ee8e9b 1600w"
+  },
+  "blog/vibe-coding-workflow/ai-native-workflow": {
+    "type": "image",
+    "width": 1536,
+    "height": 1024,
+    "aspect": "landscape",
+    "src": "/media/blog/vibe-coding-workflow/ai-native-workflow-1536.webp?v=f74412a6",
+    "srcSet": "/media/blog/vibe-coding-workflow/ai-native-workflow-800.webp?v=817521ab 800w, /media/blog/vibe-coding-workflow/ai-native-workflow-1536.webp?v=f74412a6 1536w"
+  },
+  "certifications/binance-academy-ai-unlocked-agents-and-skills-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/binance-academy-ai-unlocked-agents-and-skills-certificate-1200.webp?v=3e5003dd",
+    "srcSet": "/media/certifications/binance-academy-ai-unlocked-agents-and-skills-certificate-600.webp?v=6092b236 600w, /media/certifications/binance-academy-ai-unlocked-agents-and-skills-certificate-1200.webp?v=3e5003dd 1200w"
+  },
+  "certifications/binance-academy-from-tradfi-to-crypto-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/binance-academy-from-tradfi-to-crypto-certificate-1200.webp?v=cdd2e00b",
+    "srcSet": "/media/certifications/binance-academy-from-tradfi-to-crypto-certificate-600.webp?v=14aa632f 600w, /media/certifications/binance-academy-from-tradfi-to-crypto-certificate-1200.webp?v=cdd2e00b 1200w"
+  },
+  "certifications/binance-academy-tradfi-products-on-binance-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/binance-academy-tradfi-products-on-binance-certificate-1200.webp?v=4a48d244",
+    "srcSet": "/media/certifications/binance-academy-tradfi-products-on-binance-certificate-600.webp?v=ae43b338 600w, /media/certifications/binance-academy-tradfi-products-on-binance-certificate-1200.webp?v=4a48d244 1200w"
+  },
+  "certifications/binance-academy-understanding-bonds-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/binance-academy-understanding-bonds-certificate-1200.webp?v=4bf06ee4",
+    "srcSet": "/media/certifications/binance-academy-understanding-bonds-certificate-600.webp?v=e164335a 600w, /media/certifications/binance-academy-understanding-bonds-certificate-1200.webp?v=4bf06ee4 1200w"
+  },
+  "certifications/binance-academy-understanding-stocks-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/binance-academy-understanding-stocks-certificate-1200.webp?v=5ad86e31",
+    "srcSet": "/media/certifications/binance-academy-understanding-stocks-certificate-600.webp?v=f5d2998a 600w, /media/certifications/binance-academy-understanding-stocks-certificate-1200.webp?v=5ad86e31 1200w"
+  },
+  "certifications/fortinet-certified-associate-cybersecurity-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/fortinet-certified-associate-cybersecurity-certificate-1200.webp?v=93cb838d",
+    "srcSet": "/media/certifications/fortinet-certified-associate-cybersecurity-certificate-600.webp?v=022097ac 600w, /media/certifications/fortinet-certified-associate-cybersecurity-certificate-1200.webp?v=93cb838d 1200w"
+  },
+  "certifications/fortinet-certified-fundamentals-cybersecurity-certificate": {
+    "type": "image",
+    "width": 1200,
+    "height": 848,
+    "aspect": "landscape",
+    "src": "/media/certifications/fortinet-certified-fundamentals-cybersecurity-certificate-1200.webp?v=0c5b3758",
+    "srcSet": "/media/certifications/fortinet-certified-fundamentals-cybersecurity-certificate-600.webp?v=4e4b78cf 600w, /media/certifications/fortinet-certified-fundamentals-cybersecurity-certificate-1200.webp?v=0c5b3758 1200w"
+  },
+  "experience/first-builds": {
+    "type": "image",
+    "width": 1280,
+    "height": 960,
+    "aspect": "landscape",
+    "src": "/media/experience/first-builds-1280.webp?v=7780819e",
+    "srcSet": "/media/experience/first-builds-640.webp?v=67f59432 640w, /media/experience/first-builds-1280.webp?v=7780819e 1280w"
+  },
+  "experience/foundations": {
+    "type": "image",
+    "width": 491,
+    "height": 260,
+    "aspect": "wide",
+    "src": "/media/experience/foundations-491.webp?v=21432c28",
+    "srcSet": "/media/experience/foundations-491.webp?v=21432c28 491w"
+  },
+  "experience/graduated": {
+    "type": "image",
+    "width": 1280,
+    "height": 1707,
+    "aspect": "tall",
+    "src": "/media/experience/graduated-1280.webp?v=8e999d6d",
+    "srcSet": "/media/experience/graduated-640.webp?v=fba30e79 640w, /media/experience/graduated-1280.webp?v=8e999d6d 1280w"
+  },
+  "experience/products-freelance": {
+    "type": "image",
+    "width": 1280,
+    "height": 931,
+    "aspect": "landscape",
+    "src": "/media/experience/products-freelance-1280.webp?v=f9f527ee",
+    "srcSet": "/media/experience/products-freelance-640.webp?v=f92c3e80 640w, /media/experience/products-freelance-1280.webp?v=f9f527ee 1280w"
+  },
+  "experience/vaa-start": {
+    "type": "image",
+    "width": 1224,
+    "height": 900,
+    "aspect": "landscape",
+    "src": "/media/experience/vaa-start-1224.webp?v=28013653",
+    "srcSet": "/media/experience/vaa-start-640.webp?v=7340efad 640w, /media/experience/vaa-start-1224.webp?v=28013653 1224w"
+  },
+  "life/a9-football-team": {
+    "type": "image",
+    "width": 1259,
+    "height": 1257,
+    "aspect": "square",
+    "src": "/media/life/a9-football-team-1259.webp?v=49091d3c",
+    "srcSet": "/media/life/a9-football-team-640.webp?v=97117664 640w, /media/life/a9-football-team-1259.webp?v=49091d3c 1259w",
+    "title": "A9 football team",
+    "place": ""
+  },
+  "life/cityview-dalat": {
+    "type": "image",
+    "width": 1280,
+    "height": 960,
+    "aspect": "landscape",
+    "src": "/media/life/cityview-dalat-1280.webp?v=3b003b23",
+    "srcSet": "/media/life/cityview-dalat-640.webp?v=29148cbe 640w, /media/life/cityview-dalat-1280.webp?v=3b003b23 1280w",
+    "title": "City view",
+    "place": "Da Lat"
+  },
+  "life/football-time": {
+    "type": "image",
+    "width": 720,
+    "height": 1280,
+    "aspect": "portrait",
+    "src": "/media/life/football-time-720.webp?v=6f5ef985",
+    "srcSet": "/media/life/football-time-640.webp?v=d5935f19 640w, /media/life/football-time-720.webp?v=6f5ef985 720w",
+    "title": "Football time",
+    "place": ""
+  },
+  "life/graduated-middle-school": {
+    "type": "image",
+    "width": 1280,
+    "height": 960,
+    "aspect": "landscape",
+    "src": "/media/life/graduated-middle-school-1280.webp?v=0d2d5640",
+    "srcSet": "/media/life/graduated-middle-school-640.webp?v=f1fd9db8 640w, /media/life/graduated-middle-school-1280.webp?v=0d2d5640 1280w",
+    "title": "Middle school graduation",
+    "place": ""
+  },
+  "life/motorbike-claytunnel-dalat": {
+    "type": "image",
+    "width": 1079,
+    "height": 577,
+    "aspect": "wide",
+    "src": "/media/life/motorbike-claytunnel-dalat-1079.webp?v=8931de7d",
+    "srcSet": "/media/life/motorbike-claytunnel-dalat-640.webp?v=e0ffce03 640w, /media/life/motorbike-claytunnel-dalat-1079.webp?v=8931de7d 1079w",
+    "title": "Motorbike ride",
+    "place": "Clay Tunnel, Da Lat"
+  },
+  "life/novaworld-phanthiet": {
+    "type": "image",
+    "width": 1280,
+    "height": 840,
+    "aspect": "wide",
+    "src": "/media/life/novaworld-phanthiet-1280.webp?v=b30d9a2f",
+    "srcSet": "/media/life/novaworld-phanthiet-640.webp?v=73663e6f 640w, /media/life/novaworld-phanthiet-1280.webp?v=b30d9a2f 1280w",
+    "title": "NovaWorld",
+    "place": "Phan Thiet"
+  },
+  "life/swans-claytunnel-dalat": {
+    "type": "image",
+    "width": 1280,
+    "height": 959,
+    "aspect": "landscape",
+    "src": "/media/life/swans-claytunnel-dalat-1280.webp?v=e20318fa",
+    "srcSet": "/media/life/swans-claytunnel-dalat-640.webp?v=76cf5e51 640w, /media/life/swans-claytunnel-dalat-1280.webp?v=e20318fa 1280w",
+    "title": "Swans",
+    "place": "Clay Tunnel, Da Lat"
+  },
+  "life/thienquang-pagoda-muine": {
+    "type": "image",
+    "width": 720,
+    "height": 1280,
+    "aspect": "portrait",
+    "src": "/media/life/thienquang-pagoda-muine-720.webp?v=2613335f",
+    "srcSet": "/media/life/thienquang-pagoda-muine-640.webp?v=e590b033 640w, /media/life/thienquang-pagoda-muine-720.webp?v=2613335f 720w",
+    "title": "Thien Quang Pagoda",
+    "place": "Mui Ne"
+  },
+  "life/k99-footballfield-hcmc": {
+    "type": "image",
+    "width": 1280,
+    "height": 720,
+    "aspect": "wide",
+    "src": "/media/life/k99-footballfield-hcmc-1280.webp?v=7bd83fca",
+    "srcSet": "/media/life/k99-footballfield-hcmc-640.webp?v=730232aa 640w, /media/life/k99-footballfield-hcmc-1280.webp?v=7bd83fca 1280w",
+    "title": "K99 Football Field",
+    "place": "HCMC"
+  },
+  "life/dami-dam-lamdong": {
+    "type": "image",
+    "width": 899,
+    "height": 1280,
+    "aspect": "tall",
+    "src": "/media/life/dami-dam-lamdong-899.webp?v=9c73c1db",
+    "srcSet": "/media/life/dami-dam-lamdong-640.webp?v=af961775 640w, /media/life/dami-dam-lamdong-899.webp?v=9c73c1db 899w",
+    "title": "Da Mi Dam",
+    "place": "Lam Dong"
+  },
+  "life/whitetiger-saigonzoo": {
+    "type": "image",
+    "width": 796,
+    "height": 1169,
+    "aspect": "portrait",
+    "src": "/media/life/whitetiger-saigonzoo-796.webp?v=7ddd7393",
+    "srcSet": "/media/life/whitetiger-saigonzoo-640.webp?v=62ab8c8d 640w, /media/life/whitetiger-saigonzoo-796.webp?v=7ddd7393 796w",
+    "title": "White Tiger",
+    "place": "Sai Gon Zoo"
+  },
+  "life/what-are-u-looking-at": {
+    "type": "image",
+    "width": 1280,
+    "height": 879,
+    "aspect": "landscape",
+    "src": "/media/life/what-are-u-looking-at-1280.webp?v=07f8c201",
+    "srcSet": "/media/life/what-are-u-looking-at-640.webp?v=635947ef 640w, /media/life/what-are-u-looking-at-1280.webp?v=07f8c201 1280w",
+    "title": "What are you looking at?",
+    "place": "Sai Gon Zoo"
+  },
+  "life/sunrise-datlat": {
+    "type": "image",
+    "width": 1280,
+    "height": 960,
+    "aspect": "landscape",
+    "src": "/media/life/sunrise-datlat-1280.webp?v=0213a83e",
+    "srcSet": "/media/life/sunrise-datlat-640.webp?v=77cf3e41 640w, /media/life/sunrise-datlat-1280.webp?v=0213a83e 1280w",
+    "title": "Sunrise over mountains",
+    "place": "Da Lat"
+  },
+  "projects/metabased/create-nft": {
+    "type": "image",
+    "width": 980,
+    "height": 544,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/create-nft-980.webp?v=4c448c8a",
+    "srcSet": "/media/projects/metabased/create-nft-800.webp?v=73385e41 800w, /media/projects/metabased/create-nft-980.webp?v=4c448c8a 980w"
+  },
+  "projects/metabased/create-post": {
+    "type": "image",
+    "width": 524,
+    "height": 567,
+    "aspect": "square",
+    "src": "/media/projects/metabased/create-post-524.webp?v=7575ad58",
+    "srcSet": "/media/projects/metabased/create-post-524.webp?v=7575ad58 524w"
+  },
+  "projects/metabased/dashboard": {
+    "type": "image",
+    "width": 891,
+    "height": 510,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/dashboard-891.webp?v=dca75d56",
+    "srcSet": "/media/projects/metabased/dashboard-800.webp?v=eb77d805 800w, /media/projects/metabased/dashboard-891.webp?v=dca75d56 891w"
+  },
+  "projects/metabased/discover": {
+    "type": "image",
+    "width": 980,
+    "height": 529,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/discover-980.webp?v=8301c072",
+    "srcSet": "/media/projects/metabased/discover-800.webp?v=43ca57e7 800w, /media/projects/metabased/discover-980.webp?v=8301c072 980w"
+  },
+  "projects/metabased/home": {
+    "type": "image",
+    "width": 346,
+    "height": 275,
+    "aspect": "landscape",
+    "src": "/media/projects/metabased/home-346.webp?v=3c90da1f",
+    "srcSet": "/media/projects/metabased/home-346.webp?v=3c90da1f 346w"
+  },
+  "projects/metabased/interactive": {
+    "type": "image",
+    "width": 510,
+    "height": 608,
+    "aspect": "tall",
+    "src": "/media/projects/metabased/interactive-510.webp?v=5865897b",
+    "srcSet": "/media/projects/metabased/interactive-510.webp?v=5865897b 510w"
+  },
+  "projects/metabased/messages": {
+    "type": "image",
+    "width": 643,
+    "height": 383,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/messages-643.webp?v=baa48a69",
+    "srcSet": "/media/projects/metabased/messages-643.webp?v=baa48a69 643w"
+  },
+  "projects/metabased/notification": {
+    "type": "image",
+    "width": 980,
+    "height": 542,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/notification-980.webp?v=ccc81a27",
+    "srcSet": "/media/projects/metabased/notification-800.webp?v=e29777fd 800w, /media/projects/metabased/notification-980.webp?v=ccc81a27 980w"
+  },
+  "projects/metabased/profile": {
+    "type": "image",
+    "width": 980,
+    "height": 688,
+    "aspect": "landscape",
+    "src": "/media/projects/metabased/profile-980.webp?v=fed334d0",
+    "srcSet": "/media/projects/metabased/profile-800.webp?v=3ce67f93 800w, /media/projects/metabased/profile-980.webp?v=fed334d0 980w"
+  },
+  "projects/metabased/sell-nft": {
+    "type": "image",
+    "width": 980,
+    "height": 825,
+    "aspect": "landscape",
+    "src": "/media/projects/metabased/sell-nft-980.webp?v=beeb7fc4",
+    "srcSet": "/media/projects/metabased/sell-nft-800.webp?v=5e2bda30 800w, /media/projects/metabased/sell-nft-980.webp?v=beeb7fc4 980w"
+  },
+  "projects/metabased/settings": {
+    "type": "image",
+    "width": 980,
+    "height": 535,
+    "aspect": "wide",
+    "src": "/media/projects/metabased/settings-980.webp?v=0715b60a",
+    "srcSet": "/media/projects/metabased/settings-800.webp?v=79e25de2 800w, /media/projects/metabased/settings-980.webp?v=0715b60a 980w"
+  },
+  "projects/multi-wallet-cli/menu": {
+    "type": "image",
+    "width": 483,
+    "height": 261,
+    "aspect": "wide",
+    "src": "/media/projects/multi-wallet-cli/menu-483.webp?v=84cb0534",
+    "srcSet": "/media/projects/multi-wallet-cli/menu-483.webp?v=84cb0534 483w"
+  },
+  "projects/pnlens/cover": {
+    "type": "image",
+    "width": 1600,
+    "height": 800,
+    "aspect": "wide",
+    "src": "/media/projects/pnlens/cover-1600.webp?v=5821e028",
+    "srcSet": "/media/projects/pnlens/cover-800.webp?v=9fa0ed5f 800w, /media/projects/pnlens/cover-1600.webp?v=5821e028 1600w"
+  },
+  "projects/portfolio/portfolio": {
+    "type": "image",
+    "width": 1341,
+    "height": 739,
+    "aspect": "wide",
+    "src": "/media/projects/portfolio/portfolio-1341.webp?v=b05f5a0c",
+    "srcSet": "/media/projects/portfolio/portfolio-800.webp?v=570427fc 800w, /media/projects/portfolio/portfolio-1341.webp?v=b05f5a0c 1341w"
+  },
+  "projects/smart-home-iot/circuit": {
+    "type": "image",
+    "width": 527,
+    "height": 410,
+    "aspect": "landscape",
+    "src": "/media/projects/smart-home-iot/circuit-527.webp?v=4de86746",
+    "srcSet": "/media/projects/smart-home-iot/circuit-527.webp?v=4de86746 527w"
+  },
+  "projects/smart-home-iot/smart-home-iot": {
+    "type": "image",
+    "width": 1600,
+    "height": 1163,
+    "aspect": "landscape",
+    "src": "/media/projects/smart-home-iot/smart-home-iot-1600.webp?v=9aa1ce10",
+    "srcSet": "/media/projects/smart-home-iot/smart-home-iot-800.webp?v=7efb89d3 800w, /media/projects/smart-home-iot/smart-home-iot-1600.webp?v=9aa1ce10 1600w"
+  },
+  "projects/vibe-coding-workflow/workflow": {
+    "type": "image",
+    "width": 1536,
+    "height": 1024,
+    "aspect": "landscape",
+    "src": "/media/projects/vibe-coding-workflow/workflow-1536.webp?v=f74412a6",
+    "srcSet": "/media/projects/vibe-coding-workflow/workflow-800.webp?v=817521ab 800w, /media/projects/vibe-coding-workflow/workflow-1536.webp?v=f74412a6 1536w"
+  }
+}

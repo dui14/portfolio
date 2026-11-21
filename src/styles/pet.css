@@ -1,0 +1,102 @@
+@keyframes pet-bubble-in {
+  from {
+    opacity: 0;
+    transform: translate(-50%, var(--space-1)) scale(0.9);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0) scale(1);
+  }
+}
+
+@keyframes pet-zzz-float {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.8);
+  }
+
+  25% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(var(--space-3), calc(var(--space-8) * -1)) scale(1.2);
+  }
+}
+
+@keyframes pet-sparkle {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0) scale(0.4);
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(var(--pet-dx), var(--pet-dy)) scale(1);
+  }
+}
+
+@keyframes pet-marker-pulse {
+  0% {
+    opacity: 0.9;
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.6);
+  }
+}
+
+.pet-sprite {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
+.pet-bubble {
+  animation: pet-bubble-in var(--dur-fast) var(--ease-out) both;
+}
+
+.pet-zzz {
+  animation: pet-zzz-float 1800ms var(--ease-out) infinite;
+}
+
+.pet-sparkle {
+  animation: pet-sparkle 900ms var(--ease-out) both;
+}
+
+.pet-marker-ring {
+  animation: pet-marker-pulse 1100ms var(--ease-out) infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pet-bubble,
+  .pet-zzz,
+  .pet-marker-ring {
+    animation: none;
+  }
+
+  .pet-bubble {
+    transform: translateX(-50%);
+  }
+
+  .pet-marker-ring {
+    transform: translate(-50%, -50%);
+  }
+
+  .pet-sparkle {
+    display: none;
+  }
+
+  .pet-zzz {
+    opacity: 1;
+  }
+}
