@@ -1,9 +1,9 @@
 # Portfolio
 
-Personal portfolio of **Khang Luong**, software engineer in Ho Chi Minh City.
+Personal portfolio of a software engineer.
 Live at **[duii.dev](https://duii.dev)**.
 
-![duii.dev hero](https://duii.dev/images/profile/hero-sketch.webp)
+![duii.dev avatar](https://duii.dev/images/profile/avatar.webp)
 
 A single-page, scroll-driven site built with Vite, React 19 and Tailwind CSS v4. No database, no auth, no server rendering: static files plus one small contact endpoint.
 
@@ -97,4 +97,4 @@ React 19 · TypeScript (strict) · Vite · Tailwind CSS v4 · Motion · Lenis ·
 
 ## License
 
-Code is MIT. Photos, artwork and written content are © Khang Luong and may not be reused without permission.
+Code is released under the [MIT License](LICENSE). Photos, artwork and written content are not covered by it and may not be reused without permission.
