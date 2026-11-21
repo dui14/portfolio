@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Khang Luong — Software Engineer | duii.dev</title>
+    <meta name="description" content="Portfolio of Khang Luong, software engineer in Ho Chi Minh City building secure, scalable applications for Web2 and Web3." />
+    <link rel="canonical" href="https://duii.dev/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://duii.dev/" />
+    <meta property="og:title" content="Khang Luong — Software Engineer" />
+    <meta property="og:description" content="Building secure, scalable applications for Web2 and Web3." />
+    <meta property="og:image" content="https://duii.dev/images/profile/hero-sketch.webp" />
+    <meta property="og:image:width" content="900" />
+    <meta property="og:image:height" content="900" />
+    <meta property="og:image:alt" content="Sketch portrait of Khang Luong" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:image" content="https://duii.dev/images/profile/hero-sketch.webp" />
+    <link rel="preload" as="image" href="/images/profile/hero-sketch.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="font" href="/fonts/inter-tight-latin-wght-normal.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" type="font/woff2" crossorigin />
+    <script>
+      (function() {
+        const themes = {
+          "warm-editorial": { bg: "#F4EFEA", text: "#232323", accent: "#C84B31", onAccent: "#FFFFFF" },
+          "sage-minimalist": { bg: "#F4F6F0", text: "#1C2321", accent: "#7D907C", onAccent: "#000000" },
+          "nordic-calm": { bg: "#F0F3F5", text: "#1E252B", accent: "#3A6073", onAccent: "#FFFFFF" },
+          "deep-charcoal": { bg: "#1A1A1A", text: "#EAE5DE", accent: "#E07A5F", onAccent: "#000000" },
+          "midnight-blue": { bg: "#11161B", text: "#E2E8F0", accent: "#64B5F6", onAccent: "#000000" }
+        };
+        const stored = localStorage.getItem("duii-theme");
+        const theme = themes[stored] || themes["warm-editorial"];
+        document.documentElement.style.setProperty("--bg", theme.bg);
+        document.documentElement.style.setProperty("--text", theme.text);
+        document.documentElement.style.setProperty("--accent", theme.accent);
+        document.documentElement.style.setProperty("--on-accent-fallback", theme.onAccent);
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/app/main.tsx"></script>
+  </body>
+</html>

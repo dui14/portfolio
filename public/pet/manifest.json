@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "size": { "width": 64, "height": 64 },
+  "defaultSkin": "light",
+  "themeSkins": {
+    "deep-charcoal": "night",
+    "midnight-blue": "night"
+  },
+  "skins": {
+    "light": {
+      "base": "/pet/skins/light/base.png",
+      "run-1": "/pet/skins/light/run-1.png",
+      "run-2": "/pet/skins/light/run-2.png",
+      "bark": "/pet/skins/light/bark.png",
+      "front": "/pet/skins/light/front.png",
+      "back": "/pet/skins/light/back.png",
+      "sleep": "/pet/skins/light/sleep.png"
+    }
+  },
+  "animations": {
+    "idle": { "frames": ["base"], "fps": 1, "motion": "breathe" },
+    "run": { "frames": ["base", "run-1", "base", "run-2"], "fps": 8, "motion": "none" },
+    "runUp": { "frames": ["back"], "fps": 8, "motion": "bob" },
+    "runDown": { "frames": ["front"], "fps": 8, "motion": "bob" },
+    "catch": { "frames": ["base"], "fps": 1, "motion": "hop" },
+    "bark": { "frames": ["bark"], "fps": 1, "motion": "recoil" },
+    "sleep": { "frames": ["sleep"], "fps": 1, "motion": "breathe" }
+  },
+  "sounds": ["/pet/sounds/bark-1.mp3", "/pet/sounds/bark-2.mp3"]
+}
