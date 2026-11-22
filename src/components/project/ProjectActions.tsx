@@ -1,4 +1,4 @@
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, PlayCircle } from "lucide-react";
 
 import type { Project } from "../../domain/project.ts";
 import { useLanguage } from "../../context/useLanguage.ts";
@@ -61,6 +61,18 @@ export function ProjectActions({
         >
           <GithubIcon className="h-4 w-4" aria-hidden="true" />
           {t.projects.github}
+        </a>
+      )}
+      {links.video && (
+        <a
+          href={links.video}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={t.projects.watchVideoOf.replace("{title}", title)}
+          className={SECONDARY_CLASS}
+        >
+          <PlayCircle className="h-4 w-4" aria-hidden="true" />
+          {t.projects.video}
         </a>
       )}
     </div>

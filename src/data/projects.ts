@@ -268,6 +268,7 @@ export const projects: Project[] = [
     },
     links: {
       github: "https://github.com/dui14/multi-wallet-cli",
+      video: "https://youtu.be/pKRjosJ5gqo",
     },
     visual: {
       kind: "terminal",

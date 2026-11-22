@@ -108,6 +108,8 @@ export type Translation = {
     github: string;
     openLiveOf: string;
     viewOnGithub: string;
+    video: string;
+    watchVideoOf: string;
     backToProjects: string;
     techStack: string;
     roadmap: string;
@@ -304,6 +306,8 @@ export const translations: Record<LanguageId, Translation> = {
       github: "GitHub",
       openLiveOf: "Open {title} live",
       viewOnGithub: "View {title} on GitHub",
+      video: "Video",
+      watchVideoOf: "Watch the {title} demo video",
       backToProjects: "Back to projects",
       techStack: "Tech stack",
       roadmap: "Roadmap",
@@ -512,6 +516,8 @@ export const translations: Record<LanguageId, Translation> = {
       github: "GitHub",
       openLiveOf: "Mở {title} trực tiếp",
       viewOnGithub: "Xem {title} trên GitHub",
+      video: "Video",
+      watchVideoOf: "Xem video demo {title}",
       backToProjects: "Quay lại dự án",
       techStack: "Công nghệ sử dụng",
       roadmap: "Lộ trình",
@@ -719,6 +725,8 @@ export const translations: Record<LanguageId, Translation> = {
       github: "GitHub",
       openLiveOf: "打开 {title} 在线版",
       viewOnGithub: "在 GitHub 上查看 {title}",
+      video: "视频",
+      watchVideoOf: "观看 {title} 演示视频",
       backToProjects: "返回项目",
       techStack: "技术栈",
       roadmap: "路线图",
@@ -925,6 +933,8 @@ export const translations: Record<LanguageId, Translation> = {
       github: "GitHub",
       openLiveOf: "{title} のライブ版を開く",
       viewOnGithub: "GitHub で {title} を見る",
+      video: "動画",
+      watchVideoOf: "{title} のデモ動画を見る",
       backToProjects: "プロジェクトに戻る",
       techStack: "技術スタック",
       roadmap: "ロードマップ",

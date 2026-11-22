@@ -39,6 +39,7 @@ export type ProjectVisual =
 export type ProjectLinks = {
   live?: string;
   github?: string;
+  video?: string;
 };
 
 export type ProjectGalleryItem = {
