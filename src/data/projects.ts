@@ -278,7 +278,7 @@ export const projects: Project[] = [
         tagline: "A local-first Go CLI for multi-wallet Web3 & AI agent flows.",
         status: "13 wallets unlocked · lang: EN",
         hint: "↑/↓ move · enter select · q quit",
-        prompt: "MULTISWAP CLI",
+        prompt: "Multi-Wallet CLI",
         filter: "[Use arrows to move, type to filter]",
         menu: ["Transfer", "Swap", "Bridge", "Balance", "Agent", "Config", "Exit"],
         description: {
